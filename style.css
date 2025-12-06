@@ -1,0 +1,98 @@
+:root {
+--color-principal: #EAEAEA;
+--color-box: #6B0F1A;
+--color-text: #EAEAEA;
+--color-btn: #0D1821;
+--color-link: #5899E2;
+
+}
+
+
+.main {
+
+    background-color: var(--color-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+
+
+.box {
+    display: flex;
+    width: 500px;
+    background-color: var(--color-box);
+    border-radius: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text);
+    padding: 30px;
+    
+}
+
+.box-mail-pass {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px 10px 15px;
+
+}
+
+.input {
+    border-radius: 900px;
+    padding: 5px 50px 5px 50px;
+}
+
+#title {
+    padding: 20px 10px 50px 10px;
+    color: var(--color-text);
+    font-size: 40px;
+}
+
+#label-email {
+    padding: 20px 0px 10px 0px;
+}
+
+#label-pass {
+    padding: 20px 0px 10px 0px;
+
+}
+#label-not-acc {
+    padding: 100px 0px 50px 0px;
+    text-decoration: none;
+}
+
+#btn-ingresar {
+    border-radius: 100px;
+    background-color:var(--color-btn) ;
+    color: var(--color-text);
+    padding: 3px 110px 3px 110px;
+    transition: 0.3s;
+}
+
+.input:focus {
+    outline: 3px solid var(--color-btn);
+    
+}
+
+.link-not-acc:link {
+    color: var(--color-text);
+
+}
+
+.link-not-acc:visited {
+    color: rgb(104, 102, 102);
+}
+
+#btn-ingresar:hover {
+    background-color: #5899E2;
+    
+    cursor: pointer;
+    
+}
+
+
+
